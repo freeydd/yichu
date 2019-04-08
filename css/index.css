@@ -47,12 +47,12 @@ a{
         left: 0;
         right: 0;
         width: 7.5rem;
-        height: 13.34rem;
+        
        
   }
     
 .swiper-container .swiper-wrapper .swiper-slide img {
-    height: 13.34rem;
+   
     width: 7.5rem;  
 }    
 .swiper-container .swiper-wrapper .swiper-slide > a {  
