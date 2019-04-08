@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>purse</title>
+  <link rel="stylesheet" href="./css/iconfont-table.css">
+  <link rel="stylesheet" href="./css/purse.css">
+</head>
+<script>
+  document.documentElement.style.fontSize =
+    document.documentElement.clientWidth / 7.5 + "px"
+</script>
+
+<body>
+
+  <div class="wrap">
+    <header>
+      <div class="back">
+        <a href="topic-table.html"><span class="iconfont icon-left"></span></a>
+      </div>
+      <div class="reason">
+        钱包
+      </div>
+      <div class="omit">
+        <a href="javascript:void(0);">明细</a>
+      </div>
+    </header>
+
+
+    <div class="main">
+      <div class="money">
+          <div class="photo">
+              <img src="./images/images/3_03.png" alt="">
+          </div>
+          <div class="money1">
+              ￥ 0.00 <span>元</span>
+          </div>
+      </div>
+      <a href="javascript:void(0);">
+        <div class="recharge recharge1">
+          <img src="./images/images/q_07.png" alt="">
+          <p>充值</p>
+        </div>
+      </a>
+      <div class="recharge recharge2">
+        <img src="./images/images/q_10.png" alt="">
+        <p class="ti">提现</p>
+      </div>
+
+      <div class="explain">
+          <p>零钱可以用于用户用户间接收听回答或者购买实体商品。</p>
+          <p>在使用过程中，一处 不会收取任何费用</p>
+      </div>
+    </div>
+
+    <footer>
+      <div class="copyright1">
+            <div class="red-paper">
+              红包活动
+            </div>
+            <div class="fen">
+              |
+            </div>
+            <div class="problem">
+              常见问题
+            </div>
+      </div>
+      <div class="copyright2">
+        本服务由财付通提供底层技术支持
+      </div>
+    </footer>
+
+
+    <div class="popup">
+          <div class="qian">
+              请输入你要充值的金额 (元)
+          </div>
+          <form action="">
+            <input type="text  "  placeholder="输入金额">
+          </form>
+          <div class="sure">
+           <a href=""> 确定</a>
+          </div>
+    </div>
+
+
+    </div>
+    
+
+
+  <script src="./js/zepto.min.js"></script>
+  <script src="./js/touch.js"></script>
+
+  <script>
+    $('.recharge1').tap(function () {
+      $('.popup').css('display', 'block')
+      $('.wrap').css('background-color','#d2d2d2')
+      
+    })
+
+    $('.sure').tap(function () {
+      $('.popup').css('display', 'none')
+       $('.wrap').css('background-color', '#ffffff')
+    })
+
+  </script>
+
+</body>
+
+</html>

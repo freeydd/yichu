@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>登陆</title>
+  <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
+  <link rel="stylesheet" href="./css/landing.css">
+  <link rel="stylesheet" href="./download (1)/font_twquij4vuz/iconfont.css">
+  <script>
+    document.documentElement.style.fontSize =
+      document.documentElement.clientWidth / 7.5 + "px"
+  </script>
+</head>
+
+<body>
+  <div class="container">
+      <div class="top">
+        <div class="back">
+          <a href="javascript:void(0);">
+            <img src="./images/images/259_close_12rollover1.png" alt=""></a>
+        </div>
+        <div class="find">
+          <a href="">找回密码</a>
+        </div>
+      </div>
+
+      <form action="" class="landing">
+
+        <div class="e-mail">
+          <span class="iconfont icon-ren"></span>
+          <input id="name" type="text" placeholder="请输入邮箱地址/手机号">
+        </div>
+
+        <div class="password">
+          <span class="fa fa-unlock-alt"></span>
+          <input id="pass" type="password" placeholder="请输入密码">
+        </div>
+
+        <div class="denglu">
+          <a class="deng" href="javascript:void(0);" > 登陆</a>
+        </div>
+      </form>
+
+      <div class="newuser">
+        <a href="">用户注册</a>
+      </div>
+      <div class="wq">
+          <a class="iconfont icon-weibo"></a>
+          <a class="iconfont icon-weixin"></a>
+          <a class="iconfont icon-qie"></a>
+      </div>
+
+
+      <div class="copyright">
+        登陆或注册即同意一处<span>用户服务协议</span>
+      </div>
+      
+      <script src="./js/zepto.min.js"></script>
+      <script src="./js/touch.js"></script>
+      <script src="./js/landing.js"></script>
+      <script>
+           function login() {
+              var name = document.getElementById("name").value;
+              var pass = document.getElementById("pass").value;
+              if (name == "123" && pass == "123") {
+                alert("登入成功");
+                window.location.href = "./shouye.html";
+                return false;
+              } else {
+                alert("用户名或密码错误");
+                window.location.href = "landing.html";
+                return false;
+              }
+            }
+            $('.deng').tap(function(){
+              login()
+            })
+
+            $('.back').tap(function(){
+              // window.location.href='index.html'
+              history.back()
+            })
+            
+
+      </script>
+  </div>
+</body>
+
+</html>

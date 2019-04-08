@@ -1,0 +1,85 @@
+html, body, div, span, applet, object, iframe,
+ h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, font, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-weight: inherit;
+        font-style: inherit;
+        font-size: 100%;
+        font-family: inherit;
+        vertical-align: baseline;
+    }
+    .clearfix:before,
+    .clearfix:after {
+                        content: "";
+                        display: block;
+                        clear: both;
+                        visibility: hidden;
+                        line-height: 0;
+                        height: 0;
+                        font-size:0;
+}
+
+.clearfix { *zoom:1;}
+
+
+ 
+a{
+  text-decoration: none;
+} 
+
+
+
+.swiper-container {
+
+
+
+    position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 7.5rem;
+        height: 13.34rem;
+       
+  }
+    
+.swiper-container .swiper-wrapper .swiper-slide img {
+    height: 13.34rem;
+    width: 7.5rem;  
+}    
+.swiper-container .swiper-wrapper .swiper-slide > a {  
+  position: absolute;
+  top: 4%;
+  left: 83%;
+  opacity: 0;
+  font-size:0.3rem;
+}    
+.swiper-container .swiper-wrapper .swiper-slide .si {
+  position: absolute;
+  top: 0;
+  right: 0;
+  opacity: 0; 
+}    
+.swiper-container .swiper-wrapper .swiper-slide .come {
+  position: absolute;
+  top: 73%;
+  left:35%;
+  display: block;
+  font-size: 0.3rem;
+  padding: 0.16rem 0.54rem ;
+  opacity: 1;
+  background-color: #80d4b0;
+  color:#edfff6;
+  border: 1px solid  #80d4b0;
+  border-radius :0.8rem;
+}    
+
+

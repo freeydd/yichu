@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>加号</title>
+  <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
+  <link rel="stylesheet" href="./font-add/iconfont.css">
+  <link rel="stylesheet" href="./css/add.css">
+</head>
+<script>
+  document.documentElement.style.fontSize =
+    document.documentElement.clientWidth / 7.5 + "px"
+</script>
+
+<body>
+  <div class="wrap">
+    <div class="top clearfix">
+      <div class="back">
+        <a href="shouye.html" class="iconfont icon-left"></a>
+      </div>
+      <div class="style">
+        公开发布
+      </div>
+    </div>
+
+
+    <div class="container">
+      <div class="article">
+        <div class="wenzi">
+          “我一直在这里，等风也等你。”
+          <p>一处</p>
+        </div>
+      </div>
+
+      <div class="textarea">
+        <textarea name="" id="" cols="30" rows="10" placeholder="学习学到忘记看手机，这种感觉超爽拿起手机发现时间才过两分钟，惆怅 "></textarea>
+      </div>
+
+
+      <div class="public">
+        公开
+      </div>
+
+      <div class="article">
+        <div class="wenzi">
+          “我一直在这里，等风也等你。”
+          <p>一处</p>
+        </div>
+      </div>
+
+      <div class="textarea">
+        <textarea name="" id="" cols="30" rows="10" placeholder="学习学到忘记看手机，这种感觉超爽拿起手机发现时间才过两分钟，惆怅 "></textarea>
+      </div>
+
+
+      <div class="public">
+        公开
+      </div>
+    </div>
+    <footer>
+
+      <a href="" class="iconfont icon-jia  jia"></a>
+      <a href="" class="iconfont icon-smile smile"></a>
+      <input type="text" placeholder="输入文字">
+      <a href="" class="voice">语音</a>
+
+    </footer>
+  </div>
+
+  <script src="./js/zepto.min.js"></script>
+  <script src="./js/touch.js"></script>
+  <script>
+
+       $(".style").tap(function () {
+          if ($(this).text() === '公开发布') {
+            $(this).text("匿名发布");
+            $('.public').text('悄悄话');
+          } else {
+            $(this).text("公开发布");
+            $('.public').text('公开');
+          }
+        })
+
+       $(".public").tap(function () {
+          if ($(this).text() === "公开") {
+            $(this).text("悄悄话");
+            $('.style').text('匿名发布');
+          } else {
+            $(this).text("公开");
+            $('.style').text('公开发布');
+          }
+        }) 
+
+  </script>
+
+
+</body>
+
+</html>

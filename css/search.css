@@ -1,0 +1,139 @@
+html, body, div, span, applet, object, iframe,
+ h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, font, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-weight: inherit;
+        font-style: inherit;
+        font-size: 100%;
+        font-family: inherit;
+        vertical-align: baseline;
+    }
+    .clearfix:before,
+    .clearfix:after {
+                        content: "";
+                        display: block;
+                        clear: both;
+                        visibility: hidden;
+                        line-height: 0;
+                        height: 0;
+                        font-size:0;
+}
+
+.clearfix { *zoom:1;}
+a{
+  text-decoration: none;
+}
+
+.wrap{
+  /* background-image: url('../images/images/hkhd.jpg'); */
+  width: 7.5rem;
+  height: 13.34rem;
+  box-sizing: border-box;
+  background: -webkit-linear-gradient(top,#59a4a7,#b9c8a7)
+
+}
+
+.wrap .search{
+padding-top: 0.25rem;
+position: relative;
+}
+.wrap .search .search-left{
+  float: left;
+}
+.wrap .search .search-left>span  {
+font-size: 0.4rem;
+  color: #fff;
+  
+  position: absolute;
+  top: 0.4rem;
+  left: 0.4rem;
+  z-index: 2;
+}
+input::-webkit-input-placeholder{
+  color: #9e9e9e;
+  text-indent:0.6rem;
+}
+.wrap .search .search-left>input  {
+  background-color: #ececec;
+  font-size: 0.3rem;
+  width: 6rem;
+  height: 0.6rem;
+  border: none;
+  border-radius: 0.1rem;
+  position: absolute;
+  top: 0.25rem;
+  left: 0.24rem
+ 
+
+}
+.wrap .search .search-right  {
+
+ float: right;
+
+}
+.wrap .search .search-right a 
+{
+  color: #a6d2d1;
+  font-size: 0.3rem;
+  display: block;
+  margin-right: 0.38rem;
+  padding-top: 0.15rem;
+}
+
+.wrap .filter
+{
+  font-size: 0.24rem;
+  padding-top: 0.3rem;
+  
+}
+.wrap .filter .details{
+  float: left;
+  padding: 0.25rem 1.37rem;
+  background-color: #35efca;
+  border-radius: 0.1rem;
+  margin-left: 0.23rem;
+  color: #fff;
+}
+.wrap .filter .details a
+{
+color: #fff;
+}
+
+.wrap .filter .user{
+  float: right;
+  padding: 0.25rem 1.37rem;
+  background-color: #fff;
+  border-radius: 0.1rem;
+  margin-right: 0.23rem;
+ 
+  
+}
+.wrap .filter .user a
+{
+color: #9e9e9e;
+}
+
+.wrap .record{
+  color: #a1cbc7;
+  font-size: 0.27rem;
+  
+}
+.wrap .record div
+{
+  line-height: 0.9rem;
+  border-bottom: 1px solid;
+  border-color: rgba(255,255,255, 0.2) 
+}
+.wrap .record div span 
+{
+  margin-left: 0.25rem;
+}
+

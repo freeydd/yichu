@@ -1,0 +1,169 @@
+html, body, div, span, applet, object, iframe,
+ h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, font, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-weight: inherit;
+        font-style: inherit;
+        font-size: 100%;
+        font-family: inherit;
+        vertical-align: baseline;
+    }
+    .clearfix:before,
+    .clearfix:after {
+                        content: "";
+                        display: block;
+                        clear: both;
+                        visibility: hidden;
+                        line-height: 0;
+                        height: 0;
+                        font-size:0;
+}
+
+.clearfix { *zoom:1;}
+
+
+a{
+  text-decoration: none;
+  color: rgba(0,0, 0, 0.4);
+}
+.wrap{
+  width: 7.5rem;
+}
+.wrap .top{
+width: 100%;
+background: -webkit-linear-gradient(top,#2fd9c9,#36efbe);
+position: fixed;
+top: 0;
+
+
+
+}
+.wrap .top .back{
+color: rgba(0,0, 0, 0.4);
+font-size: 0.35rem;
+float: left;
+
+margin: 0.52rem 0 0.3rem 0.33rem;
+}
+.wrap .top .style{
+float: right;
+font-size: 0.2rem;
+border-radius: 0.2rem;
+border: 0.02rem solid ;
+border-color: rgba(0,0, 0, 0.4); 
+padding: 0.1rem 0.2rem ;
+margin: 0.52rem 0.33rem 0.3rem 0;
+}
+.wrap .container {
+margin-top: 1.29rem;
+margin-bottom: 1.5rem;
+}
+
+.wrap .container .article{
+  width: 100%;
+ padding-top: 1.29rem;
+}
+.wrap .container .article .wenzi{
+  width: 100%;
+  font-size: 0.33rem ;
+  color: #059979;
+  width: 4.96rem;
+  margin: 0 auto;
+  text-align: right;
+  
+  
+}
+.wrap .container .article .wenzi p{
+  text-align: right;
+  margin-right: 0.24rem;
+  margin-top: 0.26rem;
+}
+.wrap .container .textarea textarea{
+  width: 100%;
+
+}
+.wrap .container .textarea textarea {
+ width: 6.88rem;
+ height: 6.84rem;
+ margin-left: 0.3rem;
+ background: #cdebe4;
+ border: none ;
+ border-radius: 0.2rem;
+ resize: none;
+ margin-top: 0.3rem;
+
+}
+
+textarea::placeholder{
+  font-size: 0.26rem;
+  color: #202020;
+  line-height: 0.4rem;
+  padding: 0.2rem 0.27rem 0 0.27rem ;
+}
+.wrap .container .public{
+  font-size: 0.2rem;
+  color: #24a68a;
+ text-align: center;
+  border: 0.02rem solid #37ad94;
+  width: 1rem;
+  padding: 0.1rem 0;
+  border-radius: 0.3rem;
+  margin-left: 6.25rem;
+}
+
+
+
+
+footer{
+width: 100%;
+
+position: fixed;
+bottom:0;
+left: 0;
+z-index: 2;
+background-color: #ffffff;
+border-top: 1px solid #9bd6c9;
+
+}
+
+footer input{
+  border: none;
+  width: 3.8rem;
+  height: 0.6rem;
+  position: fixed;
+  bottom: 0.1rem;
+  
+  
+}
+::-webkit-input-placeholder{
+  color: #c3c3c3;
+}
+footer .jia,
+footer .smile  {
+  font-size: 0.46rem;
+  color: #059979;
+
+}
+footer .jia
+ {
+   margin-left: 0.33rem;
+}
+footer .smile {
+  margin-right: 0.28rem;
+}
+
+footer  .voice{
+  font-size: 0.26rem ;
+  color: #059979;
+  position: fixed;
+  right: 0.3rem;
+  bottom: 0.35rem
+}

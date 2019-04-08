@@ -1,0 +1,220 @@
+html, body, div, span, applet, object, iframe,
+ h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, font, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-weight: inherit;
+        font-style: inherit;
+        font-size: 100%;
+        font-family: inherit;
+        vertical-align: baseline;
+    }
+    .clearfix:before,
+    .clearfix:after {
+                        content: "";
+                        display: block;
+                        clear: both;
+                        visibility: hidden;
+                        line-height: 0;
+                        height: 0;
+                        font-size:0;
+}
+
+.clearfix { *zoom:1;}
+
+
+a{
+  text-decoration: none;
+}
+
+.box{
+  width: 7.5rem;
+  height: 13.37rem;
+  box-sizing: border-box;
+}
+
+header{
+  width: 7.5rem;
+  font-size: 0.4rem;
+  background: -webkit-linear-gradient(top,#1f9496,#35f0be);
+   position: fixed;
+        left: 0;
+        top: 0;
+       
+}
+header{
+  z-index:3;
+  
+}
+header .dynamic {
+ float: left;
+ padding: 0.55rem 0 0.25rem 2.42rem;
+ text-align: center;
+}
+header .dynamic p{
+  color:rgba(0,0,0,0.5);
+  font-weight: 100;
+     
+}
+header .dynamic p:nth-child(2){
+  font-size: 0.1rem;
+}
+header .chat{
+  float: right;
+   padding: 0.55rem 2.42rem 0.25rem  0;
+   text-align: center;
+}
+header .chat p{
+  color: #ffffff;
+  font-weight :100;
+  
+}
+header .chat p:nth-child(2){
+  font-size: 0.1rem;
+}
+
+
+
+
+.container{
+  width: 100%;
+  overflow: auto;
+  padding-top: 1.2rem;
+  padding-bottom: 1rem;
+  
+}
+.container .search{
+position: relative;
+background-color: #efefef;
+padding: 0rem 0.24rem 0.28rem 0.24rem ;
+text-align: center;
+}
+.container .search span{
+  margin-left: 0.1rem;
+  font-size: 0.4rem;
+  position: absolute;
+  top:0.75rem;
+  z-index: 2;
+  color: #d5d5d5;
+}
+.container .search input{
+   /* position: absolute; */
+  width: 6rem;
+  height: 0.54rem;
+  border-radius: 0.2rem;
+  border: none;
+  text-decoration: none;
+  padding-left: 0.5rem;
+}
+
+.container .chat {
+  
+  
+}
+.container .chat img {
+  float: left;
+  width: 1rem;
+  padding: 0.2rem 0.3rem 0.34rem;
+}
+.container .chat .message {
+  position: relative;
+  padding: 0.38rem 0;
+  border-bottom: 0.02rem solid #efefef;
+ 
+  
+}
+
+.container .chat .message h3 {
+  font-size: 0.27rem;
+  color: #009c7a;
+}
+.container .chat .message h3 span {
+  font-size: 0.18rem;
+  color: #fff;
+  background-color: #06bf97;
+  margin-left: 0.08rem;
+  padding: 0.05rem;
+  border-radius: 0.1rem;
+}
+.container .chat .message p {
+  font-size: 0.20rem;
+  margin-top: 0.27rem;
+  color: #aaaaaa;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow:ellipsis;
+}
+.container .chat .message .time {
+  font-size: 0.16rem;
+  position: absolute;
+  top: 0.39rem;
+  right: 0.3rem;
+  color: #d5d5d5;
+}
+
+
+
+
+
+
+
+
+/* 底部 */
+.box .bottom{
+        width:7.5rem;
+        height: 1rem;
+        background-color: #fff;
+        position: fixed;
+        left: 0;
+        bottom: 0px;
+        border-top: 1px solid #ccc;
+        line-height: 1rem;
+        z-index: 2;
+        
+}
+
+
+.box .bottom .home,
+.box .bottom .info,
+.box .bottom .add,
+.box .bottom .topic,
+.box .bottom .my
+{
+float: left;
+}
+.box .bottom .home{
+  margin-right: 1.13rem;
+  margin-left: 0.52rem;
+}
+.box .bottom .info,
+.box .bottom .add{
+  margin-right: 0.96rem;
+}
+.box .bottom .topic{
+  margin-right: 1.13rem;
+}
+.box .bottom .home img,
+.box .bottom .info img,
+.box .bottom .topic img,
+.box .bottom .my img{
+ width: 0.38rem;
+ height: 0.66rem;
+ 
+}
+.box .bottom .add img{
+  width: 0.7rem;
+  height: 0.7rem;
+}
+
+
+
+
+

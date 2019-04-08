@@ -1,0 +1,323 @@
+html, body, div, span, applet, object, iframe,
+ h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, font, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-weight: inherit;
+        font-style: inherit;
+        font-size: 100%;
+        font-family: inherit;
+        vertical-align: baseline;
+    }
+    .clearfix:before,
+    .clearfix:after {
+                        content: "";
+                        display: block;
+                        clear: both;
+                        visibility: hidden;
+                        line-height: 0;
+                        height: 0;
+                        font-size:0;
+}
+
+.clearfix { *zoom:1;}
+
+
+a{
+  text-decoration: none;
+  color: rgba(0,0, 0, 0.4);
+}
+.wrap{
+  width: 7.5rem;
+   position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+}
+.wrap header{
+width: 100%;
+background: -webkit-linear-gradient(top,#2fd9c9,#36efbe);
+position: fixed;
+top: 0;
+height: 1.29rem;
+line-height: 1.29rem;
+}
+.wrap header .back,
+.wrap header .reason
+{
+  float: left;
+}
+.wrap header .back{
+  font-size: 0.34rem;
+  margin-left: 0.3rem;
+  color: #13b391;
+}
+.wrap header .reason {
+font-size: 0.3rem;
+margin-left: 2rem;
+color: #009d7a;
+}
+
+.wrap header .omit{
+  font-size: 0.4rem;
+  float: right;
+  margin-right: 0.3rem;
+  color: #ffffff;
+  margin-top: -0.2rem;
+
+}
+.wrap header .omit a{
+  color: #ffffff;
+}
+
+.main {
+  margin-top: 1.29rem;
+  margin-bottom: 1rem;
+
+}
+.main .main1{
+  border-bottom: 0.12rem solid #f5f5f5;
+  
+}
+.main .main1 .main1-top{
+height: 1rem;
+padding-top: 0.24rem;
+
+}
+.main .main1 .main1-top .photo{
+  float: left;
+  margin-right: 0.18rem;
+  margin-left: 0.3rem;
+ 
+}
+.main .main1 .main1-top .photo img{
+  width: 1rem;
+}
+.main .main1 .main1-top .title{
+  float: left;
+   margin-top: 0.22rem;
+}
+.main .main1 .main1-top .title h2{
+ font-size: 0.26rem;
+}
+.main .main1 .main1-top .title p{
+ font-size: 0.2rem;
+ margin-top: 0.13rem;
+}
+.main .main1 .main1-top .attention{
+  float: right;
+line-height: 1rem;
+ height: 1rem;
+  
+}
+.main .main1 .main1-top .attention a {
+ font-size: 0.18rem;
+ padding: 0.1rem 0.15rem;
+ border: 1px solid #13b391;
+ margin-right: 0.4rem;
+ border-radius: 0.3rem;
+
+}
+
+.main .main1 .neirong{
+  
+  margin: 0.27rem 0.35rem 0.18rem 0.3rem;
+  
+}
+.main .main1 .neirong >p{ 
+  font-size: 0.26rem;
+  line-height: 0.42rem;
+}
+.main .main1 .neirong > a{ 
+  font-size: 0.18rem;
+  color: #303030;
+  font-weight: bold;
+}
+.main .main2{
+  list-style: none;
+  border-bottom: 0.04rem solid #f5f5f5;
+ 
+}
+.main .main2 li{
+ float: left;
+
+}
+.main .main2 li p{
+ font-size: 0.26rem;
+ color: #aeaeae;
+ padding: 0.27rem 0;
+}
+.main .main2 .answer{
+margin-left: 2.54rem;
+ border-bottom: 0.04rem solid #13b391;
+ 
+}
+.main .main2 .hot-review{
+  margin-left: 1.5rem;
+}
+
+.main .answer1 {
+
+overflow: auto;
+width: 100%;
+}
+.main .answer1 .answer1-top {
+  margin-top: 0.35rem;
+  height: 0.8rem;
+  line-height: 0.8rem;
+}
+.main .answer1 .answer1-top img {
+  float: left;
+  margin-left: 0.3rem;
+  width: 0.8rem;
+}
+.main .answer1 .answer1-top h2 {
+  float: left;
+  font-size: 0.27rem;
+  margin-left: 0.3rem;
+}
+.main .answer1 .answer1-top p {
+  float: right;
+  margin-right: 0.3rem;
+  font-size: 0.27rem;
+}
+.main .answer1  .answer1-middle{
+height: 1.8rem;
+overflow: hidden;
+  padding: 0.38rem 0.3rem 0.4rem 0.3rem;
+}
+.main .answer1  .answer1-middle h3{
+  font-size: 0.24rem;
+  color: #6b6b6b;
+}
+.main .answer1  .answer1-middle p
+{
+   font-size: 0.24rem;
+  color: #6b6b6b;
+  line-height: 0.4rem;
+  margin-top: 0.1rem;
+}
+.main .answer1  .answer1-bottom  
+{
+  border-bottom: 0.14rem solid #f5f5f5;
+padding-bottom: 0.1rem;
+}
+.main .answer1  .answer1-bottom  .time
+{
+float: left;
+font-size: 0.18rem;
+color: #acacac;
+margin-left: 0.3rem;
+ 
+}
+.main .answer1  .answer1-bottom  span
+{
+float:right;
+color: #acacac;
+font-size: 0.2rem;
+margin-right: 0.3rem;
+}
+
+footer{
+height: 1rem;
+line-height: 1rem;
+position: fixed;
+bottom: 0;
+left: 0;
+background-color: #fff;
+z-index: 2;
+width: 100%;
+}
+footer .wenjian,
+footer .shuru
+{
+  float: left;
+  
+}
+footer .wenjian
+{
+margin-left: 0.2rem;
+font-size: 0.5rem;
+color: #009c79;
+}
+
+footer .shuru{
+  text-decoration: none;
+  margin-left: 0.2rem;
+ margin-top: -0.3rem;
+  border: none;
+}
+footer .shuru input{
+  text-decoration: none;
+ width: 5rem;
+  border: none;
+}
+footer .fasong{
+  float: right;
+  font-size: 0.34rem;
+  color: #009c79;
+  margin-right: 0.2rem;
+  
+}
+footer a{
+  color: #009c79;
+}
+
+.share{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 3;
+  width: 7.5rem;
+  background-color: #e5e5e5;
+  display: none;
+  
+}
+
+.share .share-wenzi{
+  font-size: 0.3rem;
+  color:#aeaeae;
+  text-align: center;
+  padding: 0.28rem 0rem;
+}
+
+.share .tubiao {
+margin-left: 0.6rem;
+}
+.share .tubiao .tu{
+  float: left;
+  font-size: 1rem;
+  margin-right: 0.4rem;
+  margin-bottom: 0.4rem;
+}
+.share .tubiao .tu:nth-child(4){
+ margin-right: 0.1rem;
+ 
+}
+
+.share .tubiao .tu a span{
+  
+  font-size: 1rem;
+  
+}
+.share .tubiao .tu p{
+ 
+  font-size:0.2rem;
+ 
+}
+.share .cancle
+{
+  font-size: 0.3rem;
+  color:#43bea4;
+  text-align: center;
+  border-top: 0.02rem solid #aeaeae;
+  padding: 0.3rem 0rem;
+}

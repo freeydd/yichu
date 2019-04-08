@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>shouye</title>
+  <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
+  <link rel="stylesheet" href="./css/shouye.css">
+  <link rel="stylesheet" href="./font_home/iconfont.css">
+</head>
+<script>
+  document.documentElement.style.fontSize =
+    document.documentElement.clientWidth / 7.5 + "px"
+</script>
+
+<body>
+
+  <div class="box">
+    <!-- 头部 -->
+    <div class="top clearfix">
+      <div class="sun">
+        <img src="./images/images/sun_03.png" alt="">
+      </div>
+      <div class="character">
+        <P>一处</P>
+        <p class="oneplace">ONEPLACE</p>
+      </div>
+      <div class="search">
+        <a href="search.html"><span class="fa fa-search"></span></a>
+      </div>
+    </div>
+    <!-- 中间 -->
+    <div class="container">
+      <div class="c-home">
+        <div class="girl">
+          <img src="./images/images/u153_02.jpg" alt="">
+        </div>
+        <div class="relax clearfix">
+          <div class="music">
+            <a href="home-music.html"><span class="iconfont icon-yinle"></span>
+            </a>
+          </div>
+          <div class="video">
+            <a href=""><span class="iconfont icon-shipin"></span>
+            </a>
+          </div>
+          <div class="wenjian">
+            <a href=""><span class="iconfont icon-wenjian"></span>
+            </a>
+          </div>
+          <div class="dj">
+            <a href="radio.html"><span class="iconfont icon-weibiaoti-"></span>
+            </a>
+          </div>
+          <div class="list">
+            <a href=""><span class="fa fa-list-ol"></span>
+            </a>
+          </div>
+        </div>
+
+
+        <div class="article">
+          <a href="shouye-fushihui.html">
+          <div class="article-top clearfix">
+            <div class="fushihui">浮世绘</div>
+            <div class="photo">
+              <img src="./images/images/u15123_05.jpg" alt="">
+            </div>
+            <div class="name">一处精选</div>
+          </div>
+
+          <div class="article-middle clearfix">
+            <div class="title">
+              <h1>老了又怎么，又不耽误好好活着</h1>
+              <p>1《奇葩说》第四期的问题是：”如果你的父母提出和</p>
+            </div>
+            <div class="title-img">
+              <img src="./images/images/u1531_05.jpg" alt="">
+            </div>
+          </div>
+
+          <div class="article-bottom clearfix">
+            <div class="time">
+              5-20 20:56
+            </div>
+            <div class="liulan">
+              <span class="iconfont icon-guankan">18k</span>
+              <span class="iconfont icon-xinaixin aixin">112</span>
+              <span class="iconfont icon-xinxi">7</span>
+            </div>
+          </div>
+          </a>
+        </div>
+
+
+        <div class="article">
+          <a href="shouye-fushihui.html">
+            <div class="article-top clearfix">
+              <div class="fushihui">浮世绘</div>
+              <div class="photo">
+                <img src="./images/images/u153111_13.jpg" alt="">
+              </div>
+              <div class="name">毛毛</div>
+            </div>
+
+            <div class="article-middle clearfix">
+              <div class="title">
+                <h1>我喜欢跟努力的自己</h1>
+                <p>你要知道，故事的结尾并不重要，生活唯一确保我们的就是光芒。</p>
+              </div>
+              <div class="title-img">
+                <img src="./images/images/u1513_09.jpg" alt="">
+              </div>
+            </div>
+
+            <div class="article-bottom clearfix">
+              <div class="time">
+                5-20 20:56
+              </div>
+              <div class="liulan">
+                <span class="iconfont icon-guankan">18k</span>
+                <span class="iconfont icon-xinaixin   aixin">112</span>
+                <span class="iconfont icon-xinxi">7</span>
+              </div>
+            </div>
+          </a>
+        </div>
+
+      </div>
+
+
+
+      <!-- 底部 -->
+      <div class="bottom clearfix">
+        <div class="home ">
+          <a href="shouye.html">
+            <img class="active" src="./a/images/shouye/_u39_disabled.png" alt="">
+          </a>
+        </div>
+        <div class="info">
+          <a href="info.html">
+            <img src="./a/images/shouye/_u45.png" alt="">
+          </a>
+        </div>
+        <div class="add">
+          <a href="add.html">
+            <img src="./a/images/shouye/_u37.png" alt="">
+          </a>
+        </div>
+        <div class="topic">
+          <a href="topic.html">
+            <img src="./a/images/shouye/_u41.png" alt="">
+          </a>
+        </div>
+        <div class="my">
+          <a href="my.html">
+            <img src="./a/images/shouye/_u43.png" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="./js/zepto.min.js"></script>
+    <script src="./js/touch.js"></script>
+    <script>
+
+
+
+      $('.aixin').tap(function () {
+        var a = $(this).text()
+        if (a < 115) {
+          a++
+          $(this).text(a)
+        }else{
+          a--
+           $(this).text(a)
+        }
+
+      })
+
+
+    </script>
+
+</body>
+
+</html>

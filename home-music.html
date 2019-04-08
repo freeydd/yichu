@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>音乐</title>
+  <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
+  <link rel="stylesheet" href="./css/swiper.min.css">
+  <link rel="stylesheet" href="./css/home-music.css">
+</head>
+<script>
+  document.documentElement.style.fontSize =
+    document.documentElement.clientWidth / 7.5 + "px"
+</script>
+
+<body>
+  <div class="wrap">
+    <header>
+      <div class="back">
+        <a href="shouye.html">
+          <span class="fa fa-arrow-left"></span>
+        </a>
+      </div>
+      <div class="music">
+        音乐
+      </div>
+    </header>
+
+
+    <div class="main">
+      <div class="channel">
+        <div class="wenzi">
+          音乐频道
+        </div>
+        <div class="omit">
+          <a href="">...</a>
+        </div>
+      </div>
+
+      <div class="swiper-container swiper1">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="./images/images/m_03.png" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/images/m_05.png" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/images/m_09.png" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/images/m_10.png" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/images/m_03.png" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/images/m_05.png" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/images/m_09.png" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/images/m_10.png" alt="">
+          </div>
+          
+        </div>
+      </div>
+
+
+
+      <div class="channel">
+        <div class="wenzi">
+          热门分享
+        </div>
+        <div class="omit">
+          <a href="">...</a>
+        </div>
+      </div>
+
+      <div class="swiper-container swiper2">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="./images/images/m_13.png" alt="">
+            <h2>心之所向，无往不至</h2>
+            <p>分享：许邻</p>
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/images/m_15.png" alt="">
+            <h2>（每日推荐）Reforget</h2>
+            <p>分享：if帷</p>
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/images/m_13.png" alt="">
+            <h2>心之所向，无往不至</h2>
+            <p>分享：许邻</p>
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/images/m_15.png" alt="">
+            <h2>（每日推荐）Reforget</h2>
+            <p>分享：if帷</p>
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/images/m_13.png" alt="">
+            <h2>心之所向，无往不至</h2>
+            <p>分享：许邻</p>
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/images/m_15.png" alt="">
+            <h2>（每日推荐）Reforget</h2>
+            <p>分享：if帷</p>
+          </div>
+
+         
+        </div>
+      </div>
+
+
+      <div class="channel">
+        <div class="wenzi">
+          音乐杂志
+        </div>
+        <div class="omit">
+          <a href="">...</a>
+        </div>
+      </div>
+      
+      <div class="swiper-container swiper3">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="./images/images/u153_02.jpg" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/images/u1513_09.jpg" alt="">
+          </div>
+      
+          <div class="swiper-slide">
+            <img src="./images/images/m_13.png" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/images/m_15.png" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/images/m_13.png" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/images/m_15.png" alt="">
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+    <script src="./js/swiper.min.js"></script>
+    <script language="javascript">
+      var mySwiper = new Swiper('.swiper1', {
+        slidesPerView: 2,//一行显示3个
+        slidesPerColumn: 2,//显示2行
+        loop: true,
+        touchRatio: 0.5,//触摸变慢
+      })
+
+
+      var mySwiper2 = new Swiper('.swiper2', {
+        slidesPerView: 2,
+        touchRatio: 0.5,//触摸变慢
+        loop: true,
+      })
+
+      var mySwiper3 = new Swiper('.swiper3', {
+          slidesPerView: 2,
+          touchRatio: 0.5,//触摸变慢
+          loop: true,
+        })
+    </script>
+
+
+</body>
+
+</html>

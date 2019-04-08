@@ -1,0 +1,251 @@
+html, body, div, span, applet, object, iframe,
+ h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, font, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-weight: inherit;
+        font-style: inherit;
+        font-size: 100%;
+        font-family: inherit;
+        vertical-align: baseline;
+    }
+    .clearfix:before,
+    .clearfix:after {
+                        content: "";
+                        display: block;
+                        clear: both;
+                        visibility: hidden;
+                        line-height: 0;
+                        height: 0;
+                        font-size:0;
+}
+
+.clearfix { *zoom:1;}
+
+
+a{
+  text-decoration: none;
+}
+
+.box{
+  width: 7.5rem;
+  height: 13.37rem;
+  box-sizing: border-box;
+}
+
+header{
+  width: 7.5rem;
+  font-size: 0.4rem;
+  background: -webkit-linear-gradient(top,#1f9496,#35f0be);
+   position: fixed;
+        left: 0;
+        top: 0;
+       
+}
+header{
+  z-index: 2;
+  
+}
+header .dynamic {
+ float: left;
+ padding: 0.55rem 0 0.25rem 2.42rem;
+ text-align: center;
+}
+header .dynamic p{
+  color: #ffffff;
+  font-weight: 100;
+     
+}
+header .dynamic p:nth-child(2){
+  font-size: 0.1rem;
+}
+header .chat{
+  float: right;
+   padding: 0.55rem 2.42rem 0.25rem  0;
+   text-align: center;
+}
+header .chat p{
+  color:rgba(0,0,0,0.5);
+  font-weight :100;
+}
+header .chat p:nth-child(2){
+  font-size: 0.1rem;
+}
+
+
+.container {
+  width: 7.5rem;  
+  overflow: auto;
+  padding-top: 1.4rem;
+  padding-bottom: 1rem;
+}
+.container .together-say{
+  border-bottom: 0.12rem solid #f5f5f5;
+  padding-bottom: 0.52rem;
+}
+.container .together-say .say{
+  font-size: 0.25rem;
+  color: #9b9b9b;
+  margin-left: 0.38rem;
+  margin-top: 0.38rem;
+}
+
+.container .together-say .say-img{
+  margin-top: 0.31rem;
+  position: relative;
+  
+ 
+}
+.container .together-say .say-img img{
+  width: 1.67rem;
+  margin-left: 0.38rem;
+  float: left;
+   margin-right: 0.36rem;
+}
+.container .together-say .say-img .cricl{
+  width: 0.22rem;
+  height: 0.22rem;
+  border: 1px solid #ffd013;
+  border-radius: 50%;
+  background-color: #ffd013;
+  position: absolute;
+  top: -0.15rem;
+  left:1.92rem;
+}
+
+
+.container .together-say .say-img .say-article{
+  
+}
+.container .together-say .say-img .say-article h2{
+  font-size: 0.3rem;
+  color: #202020;
+}
+
+.container .together-say .say-img .say-article h3{
+  font-size: 0.24rem;
+  color: #afafaf;
+  margin-top: 0.19rem;
+}
+.container .together-say .say-img .say-article p{
+  font-size: 0.24rem;
+  color: #ececec;
+  margin-top: 0.5rem;
+}
+.container .together-say .say-img .say-article h4{
+  font-size: 0.24rem;
+  color: #9b9b9b;
+  margin-top: 0.17rem;
+}
+
+.container .write-back .back{
+margin-top: 0.23rem;
+
+
+
+}
+.container .write-back .back .write{
+  float: left;
+  font-size: 0.24rem;
+  color: #b4b4b4;
+  margin-left: 0.39rem;
+  margin-bottom: 0.38rem;
+  
+} 
+.container .write-back .back .all{
+  float: right;
+  font-size: 0.24rem;
+  color: #b4b4b4;
+  margin-right: 0.39rem;
+  text-decoration: underline;
+}
+
+
+.container .write-back .swiper-container {
+    width:6.73rem;
+    border-bottom: 12px solid #f5f5f5;
+    
+   
+}  
+.container .write-back .swiper-container  .swiper-slide{
+  text-align: center;
+  margin-bottom: 0.37rem;
+}
+
+.container .write-back .swiper-container  .swiper-slide img{
+  width: 100%;
+}
+.container .write-back .swiper-container  .swiper-slide h3{
+  font-size: 0.27rem;
+  color: #4d4d4d;
+  font-weight: bold;
+}
+.container .write-back .swiper-container  .swiper-slide p{
+  font-size: 0.2rem;
+  color: #9b9b9b;
+}
+
+.l{
+height: 2000px;
+}
+
+
+
+
+
+
+
+/* 底部 */
+.box .bottom{
+        width:7.5rem;
+        height: 1rem;
+        background-color: #fff;
+        position: fixed;
+        left: 0;
+        bottom: 0px;
+        border-top: 1px solid #ccc;
+        line-height: 1rem;
+        z-index: 2;
+        
+}
+
+
+.box .bottom .home,
+.box .bottom .info,
+.box .bottom .add,
+.box .bottom .topic,
+.box .bottom .my
+{
+float: left;
+}
+.box .bottom .home{
+  margin-right: 1.13rem;
+  margin-left: 0.52rem;
+}
+.box .bottom .info,
+.box .bottom .add{
+  margin-right: 0.96rem;
+}
+.box .bottom .topic{
+  margin-right: 1.13rem;
+}
+.box .bottom .home img,
+.box .bottom .info img,
+.box .bottom .topic img,
+.box .bottom .my img{
+ width: 0.38rem;
+ height: 0.66rem;
+ 
+}
+.box .bottom .add img{
+  width: 0.7rem;
+  height: 0.7rem;
+}
+

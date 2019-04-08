@@ -1,0 +1,166 @@
+html, body, div, span, applet, object, iframe,
+ h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, font, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-weight: inherit;
+        font-style: inherit;
+        font-size: 100%;
+        font-family: inherit;
+        vertical-align: baseline;
+    }
+    .clearfix:before,
+    .clearfix:after {
+                        content: "";
+                        display: block;
+                        clear: both;
+                        visibility: hidden;
+                        line-height: 0;
+                        height: 0;
+                        font-size:0;
+}
+
+.clearfix { *zoom:1;}
+
+
+a{
+  text-decoration: none;
+}
+
+
+.wrap{
+ position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%rem;
+        box-sizing: border-box;
+}
+.wrap .top{
+position: fixed;
+top: 0;
+left:0;
+background-image: url('../images/images/1_01.png');
+background-repeat: no-repeat;
+background-size:cover;
+width: 7.5rem;
+height: 5.58rem;
+border-bottom: 0.03rem solid #099a7c;
+}
+
+.wrap .top >a{
+  display: block;
+  font-size: 0.4rem;
+  color: #079e7d;
+  float: left;
+  margin-left: 0.33rem;
+  margin-top: 0.67rem;
+  width: 0.1em;
+}
+.wrap .top >.attention{
+  font-size: 0.19rem;
+  color: #ffffff;
+  padding: 0.1rem 0;
+  border: 0.01rem solid #47a899;
+  width: 0.66rem;
+  text-align: center;
+  border-radius: 0.2rem;
+  float: right;
+  margin-top: 0.64rem;
+  margin-right: 0.31rem;
+}
+.wrap .top >.attention a{
+  font-size: 0.19rem;
+  color: #ffffff;
+}
+.wrap .top >.touxiang {
+  position: absolute;
+  top: 4.85rem;
+  right: 0.3rem;
+  text-align: center;
+
+}
+
+.wrap .top >.touxiang img{
+  border-radius: 50%;
+  width: 1.4rem;
+  height: 1.4rem;
+}
+.wrap .top >.touxiang p
+{
+  color: #059979;
+  font-size: 0.25rem;
+  
+}
+
+.container {
+  overflow: auto;
+  padding-top: 5.58rem;
+  padding-bottom: 1.3rem;
+}
+.container .fushihui{
+  margin-left: 0.3rem;
+  margin-top: 0.25rem;
+ font-size: 0.18rem;
+ color: #149f81;
+ border-left: 2px solid #149f81;
+ padding: 0.09rem 0 0.09rem  0.07rem;
+}
+.container .ilike{
+  font-size: 0.64rem;
+  width: 3.75rem;
+  line-height: 0.7rem;
+  color: #4d4c4c;
+  margin-top: 0.22rem;
+  margin-left: 0.3rem;
+}
+.container .time{
+  font-size: 0.16rem;
+  color: #1a1a1a;
+  margin-top: 0.4rem;
+  margin-left: 0.3rem;
+}
+.container .story{
+  margin-top: 0.6rem;
+  font-size: 0.3rem;
+  color: #6b6b6b;
+  margin-left: 0.3rem;
+  
+}
+.container .story p{
+  width: 5.85rem;
+  line-height: 0.44rem;
+}
+
+
+footer{
+  position: fixed;
+  bottom: 0;
+  left:0;
+  width: 100%;
+  background-color: #fff;
+
+}
+
+footer a span {
+  color: #059979;
+  font-size: 0.3rem;
+  
+}
+footer a:first-child {
+  margin-left: 0.3rem;
+}
+footer  a:nth-child(2) {
+  margin-left: 1.5rem;
+}
+footer a:nth-child(3) {
+  margin-left: 1.5rem;
+}

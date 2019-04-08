@@ -1,0 +1,221 @@
+html, body, div, span, applet, object, iframe,
+ h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, font, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-weight: inherit;
+        font-style: inherit;
+        font-size: 100%;
+        font-family: inherit;
+        vertical-align: baseline;
+    }
+    .clearfix:before,
+    .clearfix:after {
+                        content: "";
+                        display: block;
+                        clear: both;
+                        visibility: hidden;
+                        line-height: 0;
+                        height: 0;
+                        font-size:0;
+}
+
+.clearfix { *zoom:1;}
+
+
+a{
+  text-decoration: none;
+  
+}
+.wrap{
+  width: 7.5rem;
+  position: absolute;
+  top: 0;
+  left: 0;  
+  bottom: 0;
+  right: 0;
+  box-sizing: border-box;
+}
+.wrap header{
+width: 100%;
+background: -webkit-linear-gradient(top,#2fd9c9,#36efbe);
+position: fixed;
+top: 0;
+left: 0;
+display: flex;
+flex-direction:row;
+align-items: center;
+z-index: 2;
+}
+.wrap header .back{
+color: rgba(0,0, 0, 0.4);
+font-size: 0.35rem;
+margin: 0.52rem 0 0.3rem 0.33rem;
+}
+.wrap header .music{
+font-size: 0.35rem;
+margin-left: 3rem;
+
+}
+
+.main {
+
+}
+.main .swiper-container{
+  width: 7.5rem;
+}
+.main .swiper-container img{
+  width: 7.5rem;
+}
+.main .main2 {
+display: flex;
+flex-direction: row;
+justify-content: center;
+
+
+}
+.main .main2 .recommend,
+.main .main2 .sort{
+  font-size: 0.3rem;
+  color: #999999;
+  padding-bottom: 0.1rem;
+  
+}
+.main .main2 .recommend{
+  margin-right: 1.1rem;
+  color: #212121;
+  border-bottom: 0.06rem solid #059979;
+}
+.main .main3{
+  border-bottom: 0.12rem solid #f5f5f5;
+  padding-bottom: 0.37rem;
+  margin-top: 0.47rem;
+}
+.main .main3-top{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 0.3rem;
+}
+.main .main3 .main3-top-left{
+  font-size: 0.2rem;
+  color: #059979;
+  padding: 0.08rem 0 0.08rem 0.06rem;
+  border-left: 0.04rem solid #059979;
+  margin-left: 0.3rem;
+}
+.main .main3 .main3-top-right{
+  display: flex;
+  font-size: 0.2rem;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 0.3rem;
+  
+}
+.main .main3 .main3-top-right img{
+  width: 0.52rem;
+  height: 0.52rem;
+  margin-left: 0.08rem;
+}
+.main .main3 .main3-middle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between
+}
+.main .main3 .main3-middle .wenzi {
+width: 3.95rem;
+margin-left: 0.3rem;
+}
+.main .main3 .main3-middle .wenzi h3{
+
+font-size: 0.3rem;
+color: #202020;
+margin-bottom: 0.4rem;
+}
+.main .main3 .main3-middle .wenzi p{
+font-size: 0.25rem;
+line-height: 0.45rem;
+color: #6b6b6b;
+}
+.main .main3 .main3-middle .photo{
+
+margin-right: 0.3rem;
+
+}
+.main .main3 .main3-middle .photo img{
+width: 2.2rem;
+}
+.main .main3 .main3-bottom{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.main .main3 .main3-bottom .time{
+  font-size: 0.2rem;
+  color: #d4d4d4;
+  margin-left: 0.3rem;
+}
+.main .main3 .main3-bottom .liulan{
+font-size: 0.1rem;
+ 
+  margin-right: 0.3rem;
+}
+.main .main3 .main3-bottom .liulan a span{
+ 
+ color: #d4d4d4;
+}
+
+
+footer{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+background-color: #fff;
+position: fixed;
+bottom: 0;
+}
+footer  .music-name{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+footer   .music-name img{
+  width: 0.62em;
+  height: 0.62em;
+  margin-left: 0.3rem;
+}
+footer   .music-name .zi{
+  font-size: 0.24rem;
+  margin-left: 0.2rem;
+}
+footer   .music-name .zi h4{
+  font-size: 0.2rem;
+  color: #000000;
+  
+}
+footer   .music-name .zi  p{
+  font-size: 0.2rem;
+  color: #9b9b9b;
+  margin-top: 0.1rem;
+  
+}
+
+footer .music-play{
+display: flex;
+flex-direction: row;
+margin-left: 2.8rem;
+}
+footer   .music-play img{
+  width: 0.5rem;
+  height: 0.5em;
+  margin-right: 0.3rem;
+}
