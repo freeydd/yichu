@@ -37,7 +37,7 @@ a{
 
   background-image:url('../images/images/123.jpg');
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   box-sizing: border-box;
   position: absolute;
         top: 0;
