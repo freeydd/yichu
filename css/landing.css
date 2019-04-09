@@ -38,6 +38,11 @@ a{
   background-image:url('../images/images/123.jpg');
   background-size: contain;
   box-sizing: border-box;
+  position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
 }
 .container .top .back {
   font-size: 0.3rem;
