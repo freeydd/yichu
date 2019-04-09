@@ -34,7 +34,7 @@ a{
 } 
 .container{
   width: 7.5rem;
-  height: 13.34rem;
+  
   background-image:url('../images/images/123.jpg');
   background-size: contain;
   box-sizing: border-box;
