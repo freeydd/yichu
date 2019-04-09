@@ -34,8 +34,9 @@ a{
 } 
 .container{
   width: 7.5rem;
-  
+
   background-image:url('../images/images/123.jpg');
+  background-repeat: no-repeat;
   background-size: contain;
   box-sizing: border-box;
   position: absolute;
