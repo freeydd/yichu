@@ -18,7 +18,7 @@
   <div class="wrap">
     <div class="top clearfix">
       <a href="shouye.html" class="iconfont icon-zhuomian-"></a>
-      <div class="attention"><a href="">关注</a></div>
+      <div class="attention"><a href="javascript:void(0);">关注</a></div>
       <div class="touxiang">
         <img src="./images/images/u153111_13.jpg" alt="">
         <p>毛毛</p>
@@ -44,13 +44,13 @@
       </div>
     </div>
 
-    <footer> 
-     <a href="javascript:void(0);"><span class="iconfont icon-xinaixin aixin">71</span></a>
+    <footer>
+      <a href="javascript:void(0);"><span class="iconfont icon-xinaixin aixin">71</span></a>
       <a href=""><span class="iconfont icon-jishiben">627</span></a>
       <a href=""><span class="iconfont icon-fenxiang">30</span></a>
     </footer>
 
-    
+
 
 
   </div>
@@ -62,7 +62,7 @@
 
 
     $('.aixin').tap(function () {
-      
+
       var a = $(this).text()
       if (a > 76) {
         a--
@@ -73,6 +73,18 @@
       }
 
     })
+
+    $(".attention>a").tap(function () {
+      if ($(this).text() === '关注') {
+        $(this).text("已关注");
+        $(this).parent().css('background-color', 'teal')
+
+      } else {
+        $(this).text("关注");
+        $(this).parent().css('background-color', 'transparent')
+      }
+    })
+
   </script>
 </body>
 
